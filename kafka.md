@@ -50,5 +50,13 @@ kafka版本为0.10, 其他版本基本通用
     kafka-run-class.sh kafka.tools.GetOffsetShell --broker-list kafka:9092 --topic test --time -1
 
 
+## kafka2.4
+
+### 查看kafka消费者组详情: GROUP,CONSUMER-ID,HOST,CLIENT-ID,#PARTITIONS
+    #指定group id
+    kafka-consumer-groups.sh --bootstrap-server kafka:9092 --group myGroupId --members --describe
+    #所有组
+    kafka-consumer-groups.sh --bootstrap-server kafka:9092 --all-groups --members --describe
+
 ##### Contributors
 * [@wakening](https://github.com/wakening)
