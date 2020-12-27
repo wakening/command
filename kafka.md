@@ -17,6 +17,7 @@ kafka版本为0.10, 其他版本基本通用
 
 ### topic列表
     kafka-topics.sh --zookeeper zoo:2181 --list
+    kafka-topics.sh --bootstrap-server kafka:9092 --list
 
 ### topic详情
     kafka-topics.sh --zookeeper zoo:2181 --topic test --describe
