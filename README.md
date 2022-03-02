@@ -26,12 +26,12 @@ tips:
 # Git
 
 #### 重置本地分支到指定的提交点，用于快速回退本地代码、清理不要的commit和本地修改记录
-    git reset -hard <commit_id>
+    git reset --hard <commit_id>
 
-    e.g.: git reset -hard 7172e0d27fccc7da1ad4d77e3699ce7ef27c3fb6
+    e.g.: git reset --hard 7172e0d27fccc7da1ad4d77e3699ce7ef27c3fb6
 
 #### 重置远程分支到指定的提交点，提交点后的所有提交将消失，慎用
-    git reset -hard <commit_id>
+    git reset --hard <commit_id>
     git push origin HEAD --force
 
 #### 查看用户名、邮箱
