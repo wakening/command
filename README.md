@@ -122,7 +122,7 @@ tips:
     python -m venv .venv
     .\.venv\Scripts\activate
     # 不激活环境，直接使用虚拟环境执行脚本
-     .\.venv\Scripts\python.exe main.py
+    .\.venv\Scripts\python.exe main.py
 
 #### 查看依赖包列表
     pip list
