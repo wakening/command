@@ -118,6 +118,12 @@ tips:
 
 # Python
 
+#### 创建虚拟环境，激活虚拟环境
+    python -m venv .venv
+    .\.venv\Scripts\activate
+    # 不激活环境，直接使用虚拟环境执行脚本
+     .\.venv\Scripts\python.exe main.py
+
 #### 查看依赖包列表
     pip list
 
@@ -128,6 +134,8 @@ tips:
 
 #### 安装指定版本的依赖
     pip install <package_name>==<version>
+    # win虚拟环境若执行失败，可使用这个命令
+    python -m pip install <package_name>==<version>
 
 #### 卸载依赖
     pip uninstall <package_name>
