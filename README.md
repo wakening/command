@@ -53,7 +53,9 @@ tips:
     
     拉取并合并到本地，pull = fetch + merge
     git pull
-    
+
+#### 克隆指定分支
+    git clone --branch release/2.7.1 https://github.com/PaddlePaddle/PaddleOCR.git
     
 
 ---
