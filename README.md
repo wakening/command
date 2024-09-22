@@ -141,3 +141,6 @@ tips:
 
 #### 卸载依赖
     pip uninstall <package_name>
+
+#### 清除缓存
+    pip cache purge
