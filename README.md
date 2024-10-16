@@ -56,6 +56,13 @@ tips:
 
 #### 克隆指定分支
     git clone --branch release/2.7.1 https://github.com/PaddlePaddle/PaddleOCR.git
+
+#### 创建tag
+    git tag <tag_name>
+    推送单个tag
+    git push origin <tag_name>
+    推送所有新建的tag
+    git push origin --tags
     
 
 ---
