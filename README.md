@@ -63,6 +63,9 @@ tips:
     git push origin <tag_name>
     推送所有新建的tag
     git push origin --tags
+
+#### 切换到tag v1.0
+    git checkout tags/v1.0
     
 
 ---
