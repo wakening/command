@@ -143,6 +143,9 @@ tips:
     pip install -r requirements.txt
     pip install --upgrade -r requirements.txt
     python -m pip install requirements.txt -i https://pypi.tuna.tsinghua.edu.cn/simple
+    
+    若项目使用pyproject.toml管理依赖
+    pip install .
 
 #### 安装指定版本的依赖
     pip install <package_name>==<version>
