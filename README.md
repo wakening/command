@@ -149,6 +149,10 @@ tips:
 
 #### 安装指定版本的依赖
     pip install <package_name>==<version>
+
+    安装依赖无视缓存，从源重新下载
+    pip install <package_name> --no-cache-dir
+    
     # win虚拟环境若执行失败，可使用这个命令
     python -m pip install <package_name>==<version>
 
@@ -157,3 +161,5 @@ tips:
 
 #### 清除缓存
     pip cache purge
+
+    
